@@ -1,0 +1,121 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.clear{
+    clear: both;
+}
+.heroSection{
+    background-color: #000000;
+    background-image: url("../img/heroImg.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    box-sizing: border-box;
+}
+.mobile{
+    float: left;
+    width: 50%;
+    padding-top: 94px;
+    padding-right: 70px;
+    text-align: right;
+    box-sizing: border-box;
+}
+.heroText{
+    float: left;
+    width: 50%;
+    padding-top: 165px;
+    box-sizing: border-box;
+}
+.logo{
+    margin-bottom: 65px;
+}
+.heroText h1{
+    font-weight: 100;
+    color: #ffffff;
+    line-height: 20px;
+}
+.heroText p{
+    color: #595555;
+}
+.toolsSection{
+    background-color: #fafafa;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 90px;
+    box-sizing: border-box;
+}
+.toolsText{
+    margin-bottom: 90px;
+}
+.toolsText h1{
+    font-weight: 100;
+}
+.toolsText p{
+    color: #c6c6c6;
+}
+.toolsContainer{
+    width: 1140px;
+    margin: auto;
+}
+.toolsGrid{
+    float: left;
+    width: 33.33%;
+    padding: 0px 30px;
+    box-sizing: border-box;
+}
+.gridText h1{
+    font-size: 24px;
+    font-weight: 400;
+    color: #202d33;
+}
+.gridText p{
+    font-size: 14px;
+    line-height: 30px;
+    color: #707b82;
+}
+.gridIcon{
+    font-size: 100px;
+    color: #c6c6c6;
+}
+.footer{
+    background-color: #fafafa;
+    border-top: 2px solid #c6c6c6;
+    padding: 60px 80px;
+    box-sizing: border-box;
+}
+.footerLogo{
+    float: left;
+    margin-right: 230px;
+    box-sizing: border-box;
+}
+.footerMenu{
+    float: left;
+    box-sizing: border-box;
+}
+.footerMenu ul{
+    list-style-type: none;
+}
+.footerMenu ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+.footerMenu ul li:last-child{
+    margin-right: 0px;
+}
+.footerItems{
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+.social{
+    float: right;
+    box-sizing: border-box;
+
+}
+.social a{
+    font-size: 31px;
+    color: #cccccc;
+    margin-left: 30px;
+}
